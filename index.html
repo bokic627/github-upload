@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="text" id="location">
+    <button class="getData">Search</button>
+
+    <div class="convertButtons">
+        <button class="celsius"  data-id="0">Celsius</button>
+    <button class="fahrenheit"  data-active="true" data-id="1">Fahrenheit</button>
+    </div>
+    
+    <main>
+        <h3 class="show-temp"></h3>
+        <h3 class="feels-like"></h3>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
